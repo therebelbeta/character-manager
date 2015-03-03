@@ -1,0 +1,38 @@
+{
+  "name": "character-manager",
+  "version": "0.0.1",
+  "description": "A 5th Edition character creator and in-game manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "webpack-dev-server --hot --progress --colors",
+    "build": "webpack --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/therebelrobot/character-manager.git"
+  },
+  "keywords": [
+    "dnd",
+    "5th",
+    "edition",
+    "5e",
+    "character",
+    "builder"
+  ],
+  "author": "Trent Oswald <trentoswald@therebelrobot.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therebelrobot/character-manager/issues"
+  },
+  "homepage": "https://github.com/therebelrobot/character-manager",
+  "devDependencies": {
+    "babel-core": "^4.6.6",
+    "babel-loader": "^4.0.0",
+    "react": "^0.12.2",
+    "react-hot-loader": "^1.1.6",
+    "react-router": "^0.12.4",
+    "webpack": "^1.7.0",
+    "webpack-dev-server": "^1.7.0"
+  }
+}
